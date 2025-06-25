@@ -17,3 +17,4 @@ function countTestResults(testResults: string[]): Record<string, number> {
 let testResults = ['pass', 'fail', 'pass', 'pass', 'fail', 'skipped', 'pass'];
 let result = countTestResults(testResults);
 console.log(result); // { pass: 4, fail: 2, skipped: 1 }
+
